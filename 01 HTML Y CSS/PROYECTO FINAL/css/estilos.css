@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.encabezado{
+    padding: 5px 20px 5px 300px;
+    font-size: 14px;
+    background: #F4F4F4;
+    display: flex;
+    justify-content: space-between;
+}
+.encabezado a{
+    text-decoration: none;
+}
+.encabezado .enca{
+    padding: 5px 300px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    padding: 5px 20px 5px 300px;
+    background-color: #f8f8f8;
+}
+nav img{
+    width: 80px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-left: 50px;
+    margin-right: 120px;
+}
+nav ul li {
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    font-size: 12px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+section{
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+.con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section{
+    padding: 5px 360px 5px 360px; /*distancia*/
+}
+.menu{
+    background-color: #0078d7;
+    padding: 5px 10px;
+}
+.menu button{
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: left;
+    width: 100%;
+}
+.buscador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 50px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+}
+.buscador input{
+    flex: 1;
+    padding: 5px 50px;
+    border: none;
+    border-right: 1px solid #ddd;
+    font-size: 10px;
+    border-radius: 5px 0 0 5px;
+}
+.categorias{
+    padding: 5px 10px;
+    border: none;
+    border-right: 1px solid #ddd; /* Línea entre select y botón */
+    font-size: 10px;
+    background-color: white;
+}
+.categorias button{
+    color: black;
+}
+.busca{
+    border: none;
+    padding: 5px 20px;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+.busca:hover{
+    background-color: #005bb5;
+}
+.portada{
+    background-image: url(../img/portada.jpg);
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-top: 250px;
+    padding: 260px 20px; /*altura de arriba*/
+}
+.lista{
+    margin: 10px 430px;
+}
+.lista h1{
+    font-size: 4rem;
+}
+.lista h3{
+    font-size: 2rem;
+}
+.lista p{
+    font-size: 1rem;
+    margin: 10px 80px;
+}
+.lista a{
+    background: white;
+    color: black;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin:  80px;
+}
+.cuadros{
+    display: flex;
+}
+.cuadros img {
+    width: 380px;
+}
+.final{
+    display: flex;
+    gap: 20px;
+    padding: 20px 20px 5px 350px;
+}
+.cuadro{
+    background-color: #F4F4F4;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 150px;
+    transition: transform 0.3s ease;
+}
+.cuadro:hover{
+    transform: translateY(-5px);
+}
+.icono{
+    font-size: 20px;
+    color: #0073e6;
+    margin-bottom: 10px;
+}

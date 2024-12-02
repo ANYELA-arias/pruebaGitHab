@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+header{
+    border: 3px solid #2e86c1;
+    height: 50px;
+    text-align: center;
+}
+section{
+    border: 3px solid #eb984e;
+    /*height: 150px;*/
+}
+article{
+    border: 3px solid #58d68d;
+    height: 150px;
+    width: 341PX;
+    display: inline-block;
+    text-align: center;
+}
+aside{
+    border: 3px solid #e74c3c;
+    height: 150px;
+    width: 144PX;
+    display: inline-block;
+    text-align: center;
+}
+footer{
+    border: 3px solid #6c3483;
+    height: 50px;
+    text-align: center;
+}

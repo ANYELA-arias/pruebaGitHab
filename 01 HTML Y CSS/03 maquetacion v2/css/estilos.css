@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+header{
+    border: 3px solid #2e86c1;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    border: 3px solid #eb984e;
+    display: flex;
+    flex-wrap: wrap;
+}
+section article{
+    border: 3px solid #58d68d;
+    height: 150px;
+    width:  342PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: BLUE;
+    background-color: yellow;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+aside{
+    border: 3px solid #e74c3c;
+    height: 150px;
+    width: 141PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article{
+    border: 3px solid yellow;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    border: 3px solid #6c3483;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lora',sans-serif ;
+}
+form{
+    background-color: white;
+    padding: 20px;
+    border: 3px solid rgb(140, 32, 140);
+    border-radius: 5px;
+    text-align: center;
+    width: 400px;
+}
+
+h2{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: flex-start;
+    width: 100%;
+    position: relative;
+    font-weight: bold;
+    font-style: italic;
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+input{
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 3px;
+    outline: 0;
+}
+input[type=text] {
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 3px;
+    outline: 0;
+}
+  
+input[type=text]:focus {
+    border: 4px solid black;
+}
+  
+input[type=text]:invalid {
+    border: 4px solid blue;
+}
+
+i{
+    position: absolute;
+    bottom: 10px;
+    right: 9px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1s;
+    cursor: pointer;
+}
+button{
+    border: none;
+    background-color: rgb(252, 111, 203);
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-family: 'Algerian', serif;
+    font-weight: bold;
+    font-style: italic;
+}
+button:hover{
+    background-color: rgb(253, 217, 239);
+}
+.show{
+    opacity: 1;
+    visibility: visible;
+    transition: all .1s;
+}
+@media only screen and (max-width: 1000px){
+    section{
+        width:100%;
+        
+    }
+
+}
+@media only screen and (max-width: 750px){
+    section{
+        width:100%;
+        background-image: url(../img/WhatsApp\ Image\ 2024-11-25\ at\ 5.16.29\ PM.jpeg);
+        background-size: cover; 
+    }
+        h2{
+           
+            color:  rgb(255, 255, 255);
+            font-family: 'Edu Australia VIC WA NT Hand Arrows' , 'Courier New', Courier, monospace;
+        }
+        label{
+            color:  rgb(255, 255, 255);
+            font-weight: normal; /quita negritas/
+            font-family: 'Edu Australia VIC WA NT Hand Arrows' , 'Courier New', Courier, monospace;
+            font-size: 15px;button{
+            font-size: 15px;
+            box-shadow: 3px 3px 5px  rgb(0, 0, 0);/* Ancho del borde y color */
+            background-color: black;
+            color:white;
+        }}
+} 
+@media only screen and (max-width: 412px){
+    section{
+        width:100%;
+        background-image: url(../img/WhatsApp\ Image\ 2024-11-25\ at\ 5.16.29\ PM.jpeg);
+        background-size: cover; 
+    }
+    form{
+            width: 290px; /* Ancho del botón */
+            height: 350px; /* Alto del botón */
+    }
+    input{
+        height: 30px;
+    }
+   button{
+    height: 35px;
+   }
+    
+}

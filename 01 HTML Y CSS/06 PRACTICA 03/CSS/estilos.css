@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #031338;
+    color: white;
+    text-align: center;
+    padding: 0;
+    align-items: center;  
+    justify-content: space-between; 
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+header ul li {
+    list-style: none;
+    margin: 0px 0px 0px 20px;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    margin: 20px 18px;
+}
+a { 
+    text-decoration: none;
+}
+.blanco {
+    color: white;
+}
+.plomo {
+    color: gray;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 10px 20px;  
+}
+nav img {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px 18px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+}
+nav .enlaces a {
+    color: black;
+}
+nav ul button{
+    background-color: #ed6c3c;
+    margin-right: 5px;
+    color: white;
+    border: none;
+    padding: 9px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 20px;
+}
+nav ul button:hover {
+    background-color: #f5b097;
+}
+.hero {
+    border: 3px transparent;
+    background-image: url(../img2/imagenn.png);
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    padding: 200px 20px;
+    padding-top: 250px;
+}
+.hero h1 {
+    font-size: 3rem;
+    color: white;
+    margin: 10px 50px;
+}
+.hero .DUS{
+    color: #ed6c3c;
+}
+.hero .lorem30 {
+    margin: 10px 50px;
+    font-size: 1.2rem; 
+    color: white;   
+}
+.hero .btn {
+    padding-top: 20px;
+    margin: 30px 50px;
+}
+.hero .btn .btns{
+    gap: 20px;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    margin-right: 20px;
+    border: 2px solid#ed6c3c;
+}
+.hero .btn .btns2{
+    gap: 20px;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    margin-right: 20px;
+    border: 2px solid #ed6c3c;  
+}
+.hero .btns2:hover{
+    background-color: #ed6c3c;
+}
+.hero .btns:hover{
+    background-color: #ed6c3c;
+}

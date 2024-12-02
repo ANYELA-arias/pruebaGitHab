@@ -1,0 +1,82 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+img{
+  height: 100px;
+  padding: 15px;
+}
+.contenedor{
+  background-image: url(../img/fondo.png);
+  background-size: cover;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  font-family: 'Algerian', serif;
+  font-weight: bold;
+  font-style: italic;
+}
+form{
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.input-box {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 0.8rem 2.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 1rem;
+} 
+
+a {
+  display: block;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  color: white;
+  text-decoration: none;
+  }
+  a:hover {
+  text-decoration: underline;
+  }
+
+  button {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 0.5rem;
+  background-color: #5078f2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+
+  }
+  button:hover {
+  background-color: #4065c7;
+  }
+@media  only screen and (max-width:1200px){
+    .contenedor{
+        width: 50%;
+    }
+}
+@media  only screen and (max-width:750px){
+  .contenedor{
+      width: 50%;
+  }
+}
+@media  only screen and (max-width:400px){
+  .contenedor{
+      width: 50%;
+  }
+}
